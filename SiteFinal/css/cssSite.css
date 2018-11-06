@@ -1,29 +1,69 @@
-h1{
-	text-align: center;
+.cinza{
+	background-color: #eee;
+	border:1px solid #ddd;
+}
+body{
+	background-color: #fff;
+	font-family: helvetica;
+	margin: 20px 0 0;
+	line-height: 180%;
+	width: 100%;
+}
+
+.fundo {
+	background: url(https://suntech.com.br/wp-content/uploads/2018/01/162811-entenda-a-importancia-das-solucoes-de-alta-tecnologia-para-empresas-de-telecom.jpg) no-repeat ;
+	background-size: cover;
+	height: 490px;	
+	
+}
+
+.logo {
+	width: 500px;
+	height: 50px;
+	float: center;
+	margin-left: 20px;
+	padding-top: 5px;
+	margin-top: 5px;
+	color: #fff;
+	font-size: 40px;
 }
 
 .menu{
-	width: 1000px;
-	margin: 0 auto;
-	text-align: right;
-}
-
-.logo{
+	width: 800px;
+	height: 34px;
 	float: left;
-	margin-left: -90px;
+	margin-left: 200px; 
+
 }
 
-ul li{
-	text-decoration: none;
-	list-style: none;
-	font-size: 17px;
-	padding-left: 40px;
-	text-align: left;
+nav ul{
+	padding-left: 14px;
 }
-a{
+
+nav ul li{
+	font-size: 18px;
+	float: center;
+	display: inline;
+	padding-left: 12px;
+	height: 10px;
+	color: #fff;
 	text-decoration: none;
-	color: #000;
+	text-shadow: transparent;
+	margin-left: 2px;
 }
-a:hover {
-    color: pink;
+
+.menu a {
+	text-decoration: none;
+	color: #fff;
+}
+.ativo a {
+	color: #00FFFF;
+}
+.banner {
+	width: 180px;
+	height: 34px;
+	float: left;
+	margin-left: 230px;
+	margin-top: 3px;
+	padding: 15px;
 }
