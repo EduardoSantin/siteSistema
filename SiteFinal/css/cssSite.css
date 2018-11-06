@@ -1,3 +1,29 @@
 h1{
 	text-align: center;
 }
+
+.menu{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.logo{
+	float: left;
+	margin-left: -90px;
+}
+
+ul li{
+	text-decoration: none;
+	list-style: none;
+	font-size: 17px;
+	padding-left: 40px;
+	text-align: left;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+    color: pink;
+}
